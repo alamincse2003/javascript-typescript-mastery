@@ -6,3 +6,5 @@
 
 3. Closure কী?
    একটি function তার outer scope-এর variables মনে রাখতে পারে, এমনকি outer function execution শেষ হয়ে গেলেও।
+
+4. Hoisting হলো JavaScript-এর এমন একটি behavior যেখানে variable এবং function declarations code execute হওয়ার আগে memory-তে register হয়ে যায়।
