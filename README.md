@@ -30,3 +30,9 @@
 
 7. Call Stack কী?
    Call Stack হলো JavaScript Engine-এর একটি stack structure যেখানে function calls track করা হয়।
+
+8. Promise কী?
+   Promise হলো একটি JavaScript object যা future-এ কোনো asynchronous operation-এর result represent করে।
+
+9. this কী?
+   this হলো একটি special keyword যা বর্তমান execution context-এর object কে refer করে।
