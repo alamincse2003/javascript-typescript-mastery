@@ -83,8 +83,27 @@
     Memory Leak কখন হয়?
     যখন object unreachable হওয়ার কথা ছিল, কিন্তু এখনও কোনো reference রয়ে গেছে।
 
+    what is Garbase Collection?
+    জাভাস্ক্রিপ্টে গার্বেজ কালেকশন (GC) হলো একটি স্বয়ংক্রিয় মেমরি ব্যবস্থাপনা প্রক্রিয়া, যা অব্যবহৃত অবজেক্ট দ্বারা দখলকৃত মেমরিকে মুক্ত করে।
+    Algorithm behind Garbage collection(Mark and Sweep)
+
 18. What is Shallow Copy (Spread Opetor)?
     শ্যালো কপি কোনো অবজেক্টের শুধুমাত্র প্রথম স্তরটি কপি করে। নেস্টেড অবজেক্টগুলো তখনও রেফারেন্স শেয়ার করে।
 
 19. What is Deep Copy?
     ডিপ কপি সমস্ত নেস্টেড অবজেক্ট সহ সম্পূর্ণ স্বাধীন কপি তৈরি করে।
+
+20. What is the LocalStorage? (size:5-10MB)
+    ব্রাউজারে স্থায়ী ডেটা সংরক্ষণ করা হয়। ব্রাউজার পুনরায় চালু করার পরেও ডেটা থেকে যায়।
+
+    Use Cases: Theme (Dark Mode), Language, User Preferences, Non-sensitive settings
+
+21. What is the SessionStorage? (size: 5MB)
+    ডেটা শুধুমাত্র বর্তমান ট্যাব সেশনের জন্য সংরক্ষিত থাকে।
+
+    Use Cases: Temporary Form Data, Multi-step Form, Current Session Data
+
+22. What is the Cookies? (size: 4kB)
+    অল্প পরিমাণ স্টোরেজ যা HTTP অনুরোধের সাথে স্বয়ংক্রিয়ভাবে পাঠানো হয় এবং প্রায়শই প্রমাণীকরণের জন্য ব্যবহৃত হয়।
+
+        Use Cases: Authentication, Session Management, Server-side tracking
